@@ -16,8 +16,8 @@ body{
     #f7f9fa : background's grey
     #65bfa9 : yes thick green
     #eb5a52 : no thick red
-    #eb5a52 : purple
-    #eb5a52 : dark green
+    #9b71e3 : purple
+    #63bfa8 : dark green
     #f29f33 : orange
     #d964a2 : pink
     #b1c926 : light green
@@ -147,9 +147,15 @@ body{
   .logo{
     border-width: 5px  ;
   }
-  .white{
+  .buttons{
     background-color: white;
+    width: 70%;
+    margin-left: 100px;
+    margin-bottom: 10px;
   }
-  
+  .add-task-button{
+    background-color:#46adf2 ;
+    margin-left: 40px;
+  }
 
 
