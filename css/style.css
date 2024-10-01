@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*colors
+    #46adf2 : light blue
+    #f7f9fa : background's grey
+    #65bfa9 : yes thick green
+    #eb5a52 : no thick red
+    #eb5a52 : purple
+    #eb5a52 : dark green
+    #f29f33 : orange
+    #d964a2 : pink
+    #b1c926 : light green
+
+*/
+
 /*Font*/
 .poppins-thin {
     font-family: "Poppins", sans-serif;
@@ -112,6 +131,24 @@
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
+  }
+
+  .text-big{
+    font-size: 3em;
+  }
+
+  .light-blue{
+    color: #46adf2;
+  }
+
+  .background-grey{
+    background-color:#f7f9fa;
+  }
+  .logo{
+    border-width: 5px  ;
+  }
+  .white{
+    background-color: white;
   }
   
 
