@@ -9,6 +9,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #f7f9fa;
 }
 
 /*colors
@@ -21,141 +22,103 @@ body{
     #f29f33 : orange
     #d964a2 : pink
     #b1c926 : light green
+    #444851 : dark grey
 
 */
 
-/*Font*/
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+.debug{
+  border: 1px solid red;
+}
 
-  .text-big{
-    font-size: 3em;
-  }
+/*Header*/
+header{
+background-color: white;
+padding: 10px 20px;
 
-  .light-blue{
-    color: #46adf2;
-  }
+}
+header img{
+  vertical-align: middle;
+}
+h1{
+  display: inline-block;
+  font-size: 3em;
+  vertical-align: middle;
+}
+main{
+  margin: 30px auto;
+  max-width: 1200px;
+}
 
-  .background-grey{
-    background-color:#f7f9fa;
-  }
-  .logo{
-    border-width: 5px  ;
-  }
-  .buttons{
-    background-color: white;
-    width: 70%;
-    margin-left: 100px;
-    margin-bottom: 10px;
-  }
-  .add-task-button{
-    background-color:#46adf2 ;
-    margin-left: 40px;
-  }
+.top-bar, .main-content{
+  background-color: white;
+  padding: 10px 20px;
+}
 
+.main-content{
+  margin-top: 5px;
+}
+ul{
+  list-style: none;
+}
 
+li{
+  padding: 5px;
+}
+
+.badge{
+  padding: 6px 16px;
+  border-radius: 16px;
+  color: white;
+  font-size: 0.8em;
+  display: inline-block;
+}
+
+.editorial{
+  background-color: #46adf2;
+}
+
+.goals{
+  background-color: #9b71e3;
+}
+
+.recruiting{
+  background-color: #63bfa8;
+}
+
+.mobile{
+  background-color: #f29f33 ;
+}
+
+.btn{
+  padding: 6px 12px;
+  border-radius: 6px;
+  border-color: transparent;
+}
+
+#task{
+  background-color: #46adf2;
+  color: white;
+}
+
+#section{
+  background-color: white;
+  color: #CBD0D5;
+  border-color: #CBD0D5;
+}
+
+.circle{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.cross{
+  border: 1px solid red;
+  color: red;
+}
+.check{
+  border: 1px solid #65bfa9;
+  color: #65bfa9;
+}
