@@ -26,9 +26,9 @@ body{
 
 */
 
-.debug{
+/*.debug{
   border: 1px solid red;
-}
+}*/
 
 /*Header*/
 header{
@@ -87,6 +87,14 @@ li{
 
 .mobile{
   background-color: #f29f33 ;
+}
+
+.website{
+  background-color: #d964a2;
+}
+
+.sales{
+  background-color: #b1c926;
 }
 
 .btn{
